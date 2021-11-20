@@ -1,4 +1,4 @@
-Copyright (c) Digital Inspiration
+Copyright (c) [Digital Inspiration](https://digitalinspiration.com/)
 All rights reserved.
 
 MIT License
