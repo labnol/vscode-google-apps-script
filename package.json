@@ -1,0 +1,49 @@
+{
+  "name": "google-apps-script",
+  "displayName": "Google Apps Script",
+  "description": "Build Google Apps Script projects in VS Code",
+  "version": "0.1.0",
+  "publisher": "labnol",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Extension Packs",
+    "Language Packs",
+    "Programming Languages"
+  ],
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#0072c6",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "keywords": [
+    "google apps script",
+    "google cloud",
+    "google sheets",
+    "google workspace"
+  ],
+  "extensionPack": [
+    "ban.spellright",
+    "ChakrounAnas.turbo-console-log",
+    "chrisdias.vscode-opennewinstance",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "dracula-theme.theme-dracula",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "emmanuelbeziat.vscode-great-icons",
+    "esbenp.prettier-vscode",
+    "humao.rest-client",
+    "natqe.reload",
+    "nhoizey.gremlins",
+    "vscodevim.vim",
+    "github.remotehub"
+  ]
+}
