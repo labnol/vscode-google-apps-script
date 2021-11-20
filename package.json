@@ -2,7 +2,7 @@
   "name": "google-apps-script",
   "displayName": "Google Apps Script",
   "description": "Build Google Apps Script projects in VS Code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "labnol",
   "engines": {
     "vscode": "^1.26.0"
@@ -20,7 +20,8 @@
   },
   "scripts": {
     "package": "npx vsce package",
-    "publish": "npx vsce publish"
+    "publish": "npx vsce publish",
+    "deploy": "npm run package && npm run publish"
   },
   "repository": {
     "type": "git",
@@ -49,6 +50,8 @@
     "natqe.reload",
     "nhoizey.gremlins",
     "vscodevim.vim",
-    "github.remotehub"
+    "github.remotehub",
+    "oouo-diogo-perdigao.docthis",
+    "juanallo.vscode-dependency-cruiser"
   ]
 }
