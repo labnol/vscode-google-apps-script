@@ -2,7 +2,7 @@
   "name": "google-apps-script",
   "displayName": "Google Apps Script",
   "description": "Build Google Apps Script projects in VS Code",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "labnol",
   "engines": {
     "vscode": "^1.26.0"
@@ -52,6 +52,7 @@
     "vscodevim.vim",
     "github.remotehub",
     "oouo-diogo-perdigao.docthis",
-    "juanallo.vscode-dependency-cruiser"
+    "juanallo.vscode-dependency-cruiser",
+    "iulian-radu-at.find-unused-exports"
   ]
 }
